@@ -22,7 +22,7 @@ namespace biggerTiles {
      * Creates a tilemap with 64x64 tiles that can be connected to other tilemaps through the overworld.
      */
     //% blockId=tileUtil_createSmallMap
-    //% block="64x64 tilemap $tilemap"
+    //% block="64x64 tilemap $tilemap set bigger map tiles"
     //% tilemap.fieldEditor="tilemap"
     //% tilemap.fieldOptions.decompileArgumentAsString="true"
     //% tilemap.fieldOptions.filter="tile"
