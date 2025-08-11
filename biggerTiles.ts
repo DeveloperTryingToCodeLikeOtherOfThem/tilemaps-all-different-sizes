@@ -31,8 +31,7 @@ namespace biggerTiles {
     //% tilemap.fieldOptions.initWidth=20
     //% tilemap.fieldOptions.initHeight=15
     //% group="Tilemaps" weight=100 blockGap=8
-    //% duplicateShadowOnDrag
-    export function setBiggerMap(tilemap: tiles.TileMapData){
+   export function setBiggerMap(tilemap: tiles.TileMapData){
     tiles.setTilemap(createBiggerMap(tilemap))
     }
 
