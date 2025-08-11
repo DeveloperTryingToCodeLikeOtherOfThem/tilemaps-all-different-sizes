@@ -1,9 +1,9 @@
 namespace biggerTiles {
      /**
-     * Creates a tilemap with 64x64 tiles that can be connected to other tilemaps through the overworld.
+     * Creates a tilemap with 32x32 tiles that can be connected to other tilemaps through the overworld.
      */
     //% blockId=tileUtil_createSmallMap
-    //% block="64x64 tilemap $tilemap"
+    //% block="32x32 tilemap $tilemap"
     //% tilemap.fieldEditor="tilemap"
     //% tilemap.fieldOptions.decompileArgumentAsString="true"
     //% tilemap.fieldOptions.filter="tile"
@@ -31,7 +31,7 @@ namespace biggerTiles {
     //% tilemap.fieldOptions.initWidth=20
     //% tilemap.fieldOptions.initHeight=15
     //% group="Tilemaps" weight=100 blockGap=8
-   export function setBiggerMap(tilemap: tiles.TileMapData){
+   export function setBiggerMap(tilemap: tiles.TileMapData): void{
     tiles.setTilemap(createBiggerMap(tilemap))
     }
 
